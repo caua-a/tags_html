@@ -1,0 +1,19 @@
+{
+  "name": "tags_html",
+  "version": "1.0.0",
+  "description": "Replicação da página de atualização de cadasatro do RH Senai",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "position",
+    "display",
+    "flex",
+    "figma",
+    "replicação",
+    "cadastro"
+  ],
+  "author": "Cauã Gustavo",
+  "license": "ISC"
+}
