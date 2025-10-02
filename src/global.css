@@ -1,0 +1,90 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_pai{
+
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    width:1440px;
+    height:810px;
+}
+.lado_direito{
+    width: 50vw;
+    height: 675px;
+    text-align: end;
+    background-color: white;
+    justify-items: flex-end;
+    margin-right: 90px;
+    }
+.titulo h1{
+    color: red;
+    font-size: 60px;
+    letter-spacing: -4px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.subtitulo h2{
+    color: rgb(5, 5, 5);
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.paragrafo P{
+    color: rgba(66, 66, 66, 0.541);
+    font-size: 30PX;
+  
+}
+
+.faixa_vermelha{
+    position: absolute;
+    right: 240px;
+    background-color: rgb(255, 0, 0);
+    width: 775px;
+    height: 5%;
+    margin-top: 70px;
+    text-align: center;
+   
+}
+
+.faixa_vermelha span{
+    position: relative;
+    top: 10px;
+    left: 105px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.lado_esquerdo{
+    width:1925px;
+    height: 810px;
+    z-index: 1000;
+    background:url(../assets/img/mulher-notebook.png);
+}
+
+.logos{
+    position: absolute;
+    bottom:145px;
+    right: 330px;
+}
+.logos img{
+    margin-left: 30px;
+    width:auto;
+    height: 40px;
+}
+
+
